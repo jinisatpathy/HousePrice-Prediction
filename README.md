@@ -5,7 +5,7 @@ The dataset used in this analysis can be obtained from https://www.kaggle.com/c/
 Kaggle have given a dataset and have included all necessary features and wants to have a estimated price of house in Ames, Iowa.
 
 # Dataset
-The data is given to predict final price of a house in Ames, Iowa. It presents a wide range of features hepful in predicting the price. There are two datasets given namely train and test. Test dataset have all features but target i.e. SalePrice is excluded.
+The data is given to predict final price of a house in Ames, Iowa. It presents a wide range of features helpful in predicting the price. There are two datasets given namely train and test. Test dataset have all features but target i.e. SalePrice is excluded.
 
 
 # Data Preprocessing
@@ -23,7 +23,7 @@ Removed suspicious outliers by seeing Target. Also, removed some outliers which 
 ## Null Values
 ![Null](https://user-images.githubusercontent.com/46856195/83022359-c2025180-a06e-11ea-972a-e07cb9641d4b.png)
 
-Most NULL values show abscence of features hence filled with 'None'. Mode was used to fill most features and 0 was used in numerical columns where the NULL values was dependent on another features. 
+Most Null values show absence of features hence filled with 'None'. Mode was used to fill most features and 0 was used in numerical columns where the NULL values was dependent on another features. 
 
 ## Skew
 ![Skew](https://user-images.githubusercontent.com/46856195/83023195-ed397080-a06f-11ea-9fd1-9126c35a952e.png)
