@@ -5,11 +5,11 @@ The dataset used in this analysis can be obtained from https://www.kaggle.com/c/
 Kaggle have given a dataset and have included all necessary features and wants to have a estimated price of house in Ames, Iowa.
 
 # Dataset
-The data is given to predict final price of a house in Ames, Iowa. It presenta a wide range of features hepful in predicting the price. There are two datasets given namely train and test. Test dataset have all features but target i.e SalePrice is excluded.
+The data is given to predict final price of a house in Ames, Iowa. It presents a wide range of features hepful in predicting the price. There are two datasets given namely train and test. Test dataset have all features but target i.e. SalePrice is excluded.
 
 
 # Data Preprocessing
-Removed suspicious outliers by seeing Target. Also, removed some outliesr which had most suspicious features. Handled Null values differently for different features.
+Removed suspicious outliers by seeing Target. Also, removed some outliers which had many suspicious features. Handled Null values differently for different features.
 
 ## Target
 ![Target](https://user-images.githubusercontent.com/46856195/83021979-2cff5880-a06e-11ea-9585-3934fd979353.png)
@@ -23,7 +23,7 @@ Removed suspicious outliers by seeing Target. Also, removed some outliesr which 
 ## Null Values
 ![Null](https://user-images.githubusercontent.com/46856195/83022359-c2025180-a06e-11ea-972a-e07cb9641d4b.png)
 
-Most NULL values shows abscence of features hence filled with 'None'. Mostly filled features with mode values and 0 in numerical columns where the NULL values because of dependent feature. 
+Most NULL values show abscence of features hence filled with 'None'. Mode was used to fill most features and 0 was used in numerical columns where the NULL values was dependent on another features. 
 
 ## Skew
 ![Skew](https://user-images.githubusercontent.com/46856195/83023195-ed397080-a06f-11ea-9fd1-9126c35a952e.png)
